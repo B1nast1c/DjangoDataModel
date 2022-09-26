@@ -54,7 +54,8 @@ class servicio_Empresa(models.Model):
 class Usuario(models.Model):
     ROLES = (
         ("ADMIN", "Admin"),
-        ("CLIENT", "Client")
+        ("CLIENT", "Client"),
+        ("GERENT", "Gerent"),
     )
 
     id = models.AutoField(primary_key=True)
