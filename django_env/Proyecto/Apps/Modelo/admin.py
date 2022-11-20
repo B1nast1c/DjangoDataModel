@@ -1,6 +1,12 @@
 from django.contrib import admin
-from .models import *
+#from .models import *
 
+from .modelos.contrato import *
+from .modelos.datosGenerales import *
+from .modelos.empresa import *
+from .modelos.servicios import *
+from .modelos.solicitud import *
+from .modelos.usuarios import *
 # Register your models here.
 
 admin.site.register(Postal)
